@@ -32,7 +32,7 @@ This project allows users to browse a list of products, add them to a cart, adju
 
 ## Links
 
-- [Solution on Frontend Mentor](https://your-solution-url.com)
+- [Solution on Frontend Mentor](https://www.frontendmentor.io/solutions/product-list-with-cart-Mv1LEOhjJW)
 - [Live Site](https://product-list-with-cart-gamma-ruddy.vercel.app)
 
 ## Built With
