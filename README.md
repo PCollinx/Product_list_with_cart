@@ -11,10 +11,7 @@ This is my solution to the [Product list with cart challenge on Frontend Mentor]
 - [Built With](#built-with)
 - [How to Use](#how-to-use)
 - [What I Learned](#what-i-learned)
-- [Continued Development](#continued-development)
-- [Useful Resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -36,7 +33,7 @@ This project allows users to browse a list of products, add them to a cart, adju
 ## Links
 
 - [Solution on Frontend Mentor](https://your-solution-url.com)
-- [Live Site](https://your-live-site-url.com)
+- [Live Site](https://product-list-with-cart-gamma-ruddy.vercel.app)
 
 ## Built With
 
@@ -49,7 +46,7 @@ This project allows users to browse a list of products, add them to a cart, adju
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/product-list-with-cart.git
+   git clone https://github.com/PCollinx/Product_list_with_cart.git
    ```
 
 ## What I Learned
