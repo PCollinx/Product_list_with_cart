@@ -1,0 +1,132 @@
+/* Custom Colors */
+.bg-red-custom {
+  background-color: hsl(14, 86%, 42%);
+}
+.text-red-custom {
+  color: hsl(14, 86%, 42%);
+}
+
+.bg-green-custom {
+  background-color: hsl(159, 69%, 38%);
+}
+.text-green-custom {
+  color: hsl(159, 69%, 38%);
+}
+
+.bg-rose-50 {
+  background-color: hsl(20, 50%, 98%);
+}
+.text-rose-50 {
+  color: hsl(20, 50%, 98%);
+}
+
+.bg-rose-100 {
+  background-color: hsl(13, 31%, 94%);
+}
+.text-rose-100 {
+  color: hsl(13, 31%, 94%);
+}
+
+.bg-rose-300 {
+  background-color: hsl(14, 25%, 72%);
+}
+.text-rose-300 {
+  color: hsl(14, 25%, 72%);
+}
+
+.bg-rose-400 {
+  background-color: hsl(7, 20%, 60%);
+}
+.text-rose-400 {
+  color: hsl(7, 20%, 60%);
+}
+
+.bg-rose-500 {
+  background-color: hsl(12, 20%, 44%);
+}
+.text-rose-500 {
+  color: hsl(12, 20%, 44%);
+}
+
+.bg-rose-900 {
+  background-color: hsl(14, 65%, 9%);
+}
+.text-rose-900 {
+  color: hsl(14, 65%, 9%);
+}
+
+/* Custom Font Family */
+.font-sans-custom {
+  font-family: "Red Hat Text", sans-serif;
+}
+
+@font-face {
+  font-family: "Red Hat Text";
+  font-weight: 400; /* Regular */
+  font-style: normal;
+  src: url("./assets/fonts/RedHatText-Italic-VariableFont_wght.ttf")
+      format("woff2"),
+    url("./assets/fonts/RedHatText-Italic-VariableFont_wght.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Red Hat Text";
+  font-weight: 600; /* Semi-bold */
+  font-style: normal;
+  src: url("./assets/fonts/RedHatText-VariableFont_wght.ttf") format("woff2"),
+    url("./assets/fonts/RedHatText-VariableFont_wght.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Red Hat Text";
+  font-weight: 700; /* Bold */
+  font-style: normal;
+  src: url("./assets/fonts/RedHatText-VariableFont_wght.ttf") format("woff2"),
+    url("./assets/fonts/RedHatText-VariableFont_wght.ttf") format("woff");
+}
+.hidden {
+  display: none;
+  opacity: 0;
+}
+
+.card-btn {
+  transition: background-color 0.3s ease-in, color 0.3s ease-out;
+  position: absolute;
+  justify-content: space-between;
+  width: 144px;
+  padding: 8px 16px;
+  border-radius: 24px;
+  top: -20px;
+  font-size: 14px;
+}
+
+.button-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  width: 18px;
+  height: 17px;
+  cursor: pointer;
+}
+#orderModal {
+  z-index: 50;
+  background-color: rgba(0, 0, 0, 0.5); /* Add semi-transparent overlay */
+}
+
+#orderModal .bg-white {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+/* # sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiJzdHlsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IFwidGFpbHdpbmRjc3NcIjtcblxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiBcIlJlZCBIYXQgVGV4dFwiO1xuICBmb250LXdlaWdodDogNDAwOyAvKiBSZWd1bGFyICovXG4gIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgc3JjOiB1cmwoXCIuL2Fzc2V0cy9mb250cy9SZWRIYXRUZXh0LVJlZ3VsYXIud29mZjJcIikgZm9ybWF0KFwid29mZjJcIiksXG4gICAgdXJsKFwiLi9hc3NldHMvZm9udHMvUmVkSGF0VGV4dC1SZWd1bGFyLndvZmZcIikgZm9ybWF0KFwid29mZlwiKTtcbn1cblxuQGZvbnQtZmFjZSB7XG4gIGZvbnQtZmFtaWx5OiBcIlJlZCBIYXQgVGV4dFwiO1xuICBmb250LXdlaWdodDogNjAwOyAvKiBTZW1pLWJvbGQgKi9cbiAgZm9udC1zdHlsZTogbm9ybWFsO1xuICBzcmM6IHVybChcIi4vYXNzZXRzL2ZvbnRzL1JlZEhhdFRleHQtU2VtaUJvbGQud29mZjJcIikgZm9ybWF0KFwid29mZjJcIiksXG4gICAgdXJsKFwiLi9hc3NldHMvZm9udHMvUmVkSGF0VGV4dC1TZW1pQm9sZC53b2ZmXCIpIGZvcm1hdChcIndvZmZcIik7XG59XG5cbkBmb250LWZhY2Uge1xuICBmb250LWZhbWlseTogXCJSZWQgSGF0IFRleHRcIjtcbiAgZm9udC13ZWlnaHQ6IDcwMDsgLyogQm9sZCAqL1xuICBmb250LXN0eWxlOiBub3JtYWw7XG4gIHNyYzogdXJsKFwiLi9hc3NldHMvZm9udHMvUmVkSGF0VGV4dC1Cb2xkLndvZmYyXCIpIGZvcm1hdChcIndvZmYyXCIpLFxuICAgIHVybChcIi4vYXNzZXRzL2ZvbnRzL1JlZEhhdFRleHQtQm9sZC53b2ZmXCIpIGZvcm1hdChcIndvZmZcIik7XG59Il19 */
